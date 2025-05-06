@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 2em;
+    background-color: #f0f0f0;
+  }
+
+  h1 {
+    color: #333;
+  }
+
+  #para {
+    margin-bottom: 2em;
+  }
+
+  #game-area {
+    position: relative;
+    height: 400px;
+    margin: 0 auto;
+    border: 2px dashed #aaa;
+    width: 80%;
+    max-width: 600px;
+    background-color: #fff;
+  }
+
+  #shape {
+    width: 100px;
+    height: 100px;
+    background-color: #e74c3c;
+    position: absolute;
+    display: block;
+    border-radius: 8px;
+    
+  }
+
+  #result {
+    margin-top: 1.5em;
+    font-size: 1.2em;
+    color: #444;
+  }
